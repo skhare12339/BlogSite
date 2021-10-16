@@ -7,6 +7,16 @@
     <title>Blog Application</title>
 </head>
 <body>
-    <h1>Hello Html1</h1>
+    <form action='/toz' method='post' >
+        {% raw xsrf_form_html() %}
+        Name of Publisher
+        <input type='text' name='Name of Publisher'>
+        Topic Name
+        <input type='text' name='Name of Post'>
+        Post
+        <input type="text" name='Post'>
+        <input type='submit'>
+        
+    </form>
 </body>
 </html>

@@ -8,7 +8,7 @@ class mainpage(tornado.web.RequestHandler):
 
 class htmlpage(tornado.web.RequestHandler):
     def get(self):
-        self.render("index.html")
+        self.render("index1.html")
 
 
 if __name__ == "__main__":
